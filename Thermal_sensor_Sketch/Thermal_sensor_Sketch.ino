@@ -37,7 +37,7 @@ void setup() {
   dht.begin();
 }
 
-int Tim = 1;
+int Tim = 1; // Counting how many times temp was measured from start of program.
 
 void loop() {
   // Wait a few seconds between measurements.
@@ -80,7 +80,7 @@ void loop() {
   
 
   
-  Tim ++;
+  Tim ++; // Adds one to count after each loop cycle. 
 
   
 }
